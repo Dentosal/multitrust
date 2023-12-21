@@ -1,0 +1,15 @@
+[package]
+name = "multitrust"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Web-of-trust -style content ranking"
+
+[dependencies]
+chrono = {version = "0.4", features = ["serde"]}
+serde = {version = "1.0", features = ["derive"]}
+serde_with = "3.4"
+serde_json = "1.0"
+petgraph = "0.6"
+
+sodiumoxide = {version = "=0.2.7", features = ["serde"]}
